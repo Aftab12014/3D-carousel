@@ -21,6 +21,13 @@
     -webkit-transform-style: preserve-3d;
             transform-style: preserve-3d;
   }
+  body{
+    overflow: hidden;
+    display: flex;
+    background: #111;
+    transform-style: preserve-3d;
+    touch-action: pan-x pan-y;
+  }
   
   #drag-container, #spin-container {
     position: relative;
